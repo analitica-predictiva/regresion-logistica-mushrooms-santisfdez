@@ -80,7 +80,7 @@ def pregunta_01():
     X.drop("type", axis=1, inplace=False)
 
     # Retorne `X` y `y`
-    return X, y
+    return X.shape, y.shape
 
 def pregunta_02():
     """
